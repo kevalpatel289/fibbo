@@ -1,0 +1,9 @@
+num=int(input('enter your limit : '))
+answer=0
+a=0
+b=1
+for i in range(num):
+        print(a)
+        answer=a
+        a=b
+        b=answer+b
